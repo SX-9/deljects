@@ -1,0 +1,28 @@
+{
+  "name": "deljects-",
+  "version": "1.0.0",
+  "description": "Purge Your Useless Github Side Projects Repo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SX-9/deljects-.git"
+  },
+  "keywords": [
+    "github",
+    "repo",
+    "purge"
+  ],
+  "author": "sx9dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SX-9/deljects-/issues"
+  },
+  "homepage": "https://github.com/SX-9/deljects-#readme",
+  "dependencies": {
+    "inquirer": "^9.1.5",
+    "octokit": "^2.0.14"
+  }
+}
