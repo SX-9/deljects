@@ -1,8 +1,11 @@
 {
-  "name": "deljects-",
+  "name": "deljects",
   "version": "1.0.0",
+  "type": "module",
   "description": "Purge Your Useless Github Side Projects Repo",
-  "main": "index.js",
+  "bin": {
+    "deljects": "index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,6 +25,7 @@
   },
   "homepage": "https://github.com/SX-9/deljects-#readme",
   "dependencies": {
+    "chalk": "^5.2.0",
     "inquirer": "^9.1.5",
     "octokit": "^2.0.14"
   }
